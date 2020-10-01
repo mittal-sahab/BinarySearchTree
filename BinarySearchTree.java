@@ -116,8 +116,8 @@ public class BinarySearchTree
     {
         if(r==null)
             return;
-        System.out.println(r.val);
         preOrderTraversal(r.left);
+        System.out.println(r.val);
         preOrderTraversal(r.right);            
     }
     public void postOrderTraversal(TreeNode r)
